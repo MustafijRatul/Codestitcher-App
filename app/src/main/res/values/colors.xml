@@ -29,4 +29,7 @@
     <color name="status_success">#10B981</color>
     <color name="progress_bar">#6366F1</color>
     <color name="progress_bar_buffer">#06B6D4</color>
+
+    <!-- Launcher App Icon Background (Pure Black) -->
+    <color name="ic_launcher_background">#000000</color>
 </resources>
