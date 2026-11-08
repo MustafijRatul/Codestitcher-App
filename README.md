@@ -5,7 +5,7 @@
 [![Android SDK](https://img.shields.io/badge/API-24%2B%20(Android%207.0%2B)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com/)
 [![Download APK](https://img.shields.io/badge/Download-APK%20(v1.0.0)-000000?style=for-the-badge&logo=googleplay&logoColor=white)](https://github.com/MustafijRatul/Codestitcher-App/releases/download/v1.0.0/CodeStitcher-v1.0.0.apk)
 
-A native Android application written in **Kotlin** for [CodeStitcher](https://codestitcher-web.github.io/), the web developer suite featuring an in-browser WebAssembly Python IDE (Pyodide), cognitive productivity utilities, and interactive programming challenges.
+A native Android application written in **Kotlin** for [CodeStitcher](https://codestitcher-web.github.io/), the modern software suite featuring Calculate, FocusGuard, LambdaScript, and next-generation productivity tools.
 
 ---
 
@@ -13,33 +13,34 @@ A native Android application written in **Kotlin** for [CodeStitcher](https://co
 
 - **Native High-Performance Web Engine**:
   - Full hardware acceleration enabled
-  - DOM storage, IndexedDB, and WebAssembly (Wasm) support for Pyodide zero-install Python execution
-  - Third-party cookies and modern web standards enabled
+  - DOM storage, IndexedDB, and modern web standards enabled
+  - Third-party cookies and secure network handling
   - Dynamic JavaScript interface bridge (`window.CodeStitcherNative`) for bi-directional native integration
-- **Cybernetic Motion Design & Mind-Blowing Assets**:
+- **Cybernetic Motion Design & Assets**:
   - **Official CodeStitcher Logo**: Embedded across all density buckets (`mdpi` up to `xxxhdpi`) for standard, rounded, and adaptive squircle launcher icons.
   - **Lottie Cyber Loader**: Real-time rotating and stitching neon particle animation (`lottie_cyber_loader.json`) with smooth fade-out on startup.
   - **Lottie Hologram Radar**: Disconnected pulse animation (`lottie_offline_radar.json`) for the offline state.
-  - **Glassmorphic Cyber-Cards**: Frosted glass dialogs with neon borders (`bg_neon_card.xml`, `bg_splash_gradient.xml`).
-  - **Tactile Haptic Feedback**: Sensory micro-vibrations on taps, compiles, fullscreen toggles, and refreshes.
+  - **Glassmorphic Cards**: Frosted glass dialogs with clean borders (`bg_neon_card.xml`, `bg_splash_gradient.xml`).
+  - **Tactile Haptic Feedback**: Sensory micro-vibrations on taps, navigation, fullscreen toggles, and refreshes.
 - **Edge-to-Edge & Modern Material 3 UI**:
   - Android 12+ / 14+ SplashScreen API support with branded vector launch animation
   - Support for Day & Night themes matching CodeStitcher's developer aesthetic
   - Dynamic system bar window insets
 - **Developer Productivity Controls**:
-  - **Fullscreen IDE Mode**: Tap the fullscreen icon to hide system bars and toolbar, maximizing your coding canvas
+  - **Fullscreen Mode**: Tap the fullscreen icon to hide system bars and toolbar, maximizing your viewing and working canvas
   - **Desktop Site Toggle**: Switch between mobile viewport and full desktop layout on large phones, foldables, and tablets
-  - **Swipe-to-Refresh**: Smooth pull-to-refresh with smart scroll-detection (preventing unwanted refresh while scrolling inside code editors)
+  - **Swipe-to-Refresh**: Smooth pull-to-refresh with smart scroll-detection
   - **Horizontal Loading Bar**: Sleek progress bar styled with CodeStitcher brand colors
-  - **Native File Chooser**: Upload Python scripts, datasets, or media directly from Android device storage
-  - **Native File Downloader**: Download exported code, plots, and files straight to device `Downloads` folder with system notification
+  - **Native File Chooser**: Upload files, datasets, or media directly from Android device storage
+  - **Native File Downloader**: Download exported files, calculations, and documents straight to device `Downloads` folder with system notification
 - **Resilience & Connectivity**:
   - Real-time network listener (`ConnectivityManager.NetworkCallback` + Kotlin `StateFlow`)
   - Beautiful offline error view with a retry action
+  - Integrated offline Chrome Dino runner game when connection drops
   - Automatic reconnection: when connection is regained, the app auto-restores the session
 - **Safe Navigation & Accidental Exit Prevention**:
   - Predictive back navigation handling
-  - Exit protection: double-tap back within 2 seconds required on root screen to avoid losing unsaved code in the Python editor
+  - Exit protection: double-tap back within 2 seconds required on root screen to avoid accidental app closure
   - External links (GitHub, external docs, tutorials) open securely in Chrome Custom Tabs
 
 ---
