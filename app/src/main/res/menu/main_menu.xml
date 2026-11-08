@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_back"
+        android:icon="@drawable/ic_arrow_back"
+        android:title="@string/action_back"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_forward"
+        android:icon="@drawable/ic_arrow_forward"
+        android:title="@string/action_forward"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/action_refresh"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_fullscreen"
+        android:icon="@drawable/ic_fullscreen"
+        android:title="@string/action_fullscreen"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/action_home"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/ic_share"
+        android:title="@string/action_share"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_desktop_mode"
+        android:checkable="true"
+        android:checked="false"
+        android:icon="@drawable/ic_desktop"
+        android:title="@string/action_desktop_site"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_open_in_browser"
+        android:title="@string/action_open_browser"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_clear_cache"
+        android:title="@string/action_clear_cache"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+</menu>

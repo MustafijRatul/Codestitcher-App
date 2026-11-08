@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Official CodeStitcher Pure Black Cinematic Theme with full AppCompat & Material3 support -->
+    <style name="Theme.App" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:colorBackground">#000000</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="colorPrimary">#6366F1</item>
+        <item name="colorSecondary">#06B6D4</item>
+    </style>
+
+    <style name="Theme.CodeStitcher" parent="Theme.App" />
+</resources>

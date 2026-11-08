@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CodeStitcher</string>
+    <string name="app_tagline">Next-Gen Web Developer Suite &amp; Python IDE</string>
+    <string name="url_codestitcher_home">https://codestitcher-web.github.io/</string>
+    <string name="url_codestitcher_github">https://github.com/CodeStitcher-web/codestitcher-web.github.io</string>
+    
+    <!-- Action Bar & Controls -->
+    <string name="action_back">Back</string>
+    <string name="action_forward">Forward</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_home">Home</string>
+    <string name="action_share">Share Page</string>
+    <string name="action_fullscreen">Fullscreen</string>
+    <string name="action_exit_fullscreen">Exit Fullscreen</string>
+    <string name="action_desktop_site">Desktop Site</string>
+    <string name="action_clear_cache">Clear Cache &amp; Storage</string>
+    <string name="action_open_browser">Open in External Browser</string>
+    <string name="action_about">About CodeStitcher</string>
+    
+    <!-- Offline & Errors -->
+    <string name="error_offline_title">Connection Lost</string>
+    <string name="error_offline_message">Unable to reach CodeStitcher. Please check your internet connection and try again.</string>
+    <string name="error_btn_retry">Retry Connection</string>
+    <string name="msg_back_press_again">Press back again to exit CodeStitcher</string>
+    <string name="msg_cache_cleared">App cache and cookies cleared</string>
+    <string name="msg_downloading">Downloading file...</string>
+    <string name="msg_download_complete">Download completed</string>
+    <string name="msg_desktop_mode_on">Desktop view enabled</string>
+    <string name="msg_desktop_mode_off">Mobile view enabled</string>
+    
+    <!-- About Dialog -->
+    <string name="about_title">CodeStitcher for Android</string>
+    <string name="about_version">Version 1.0.0</string>
+    <string name="about_description">Official native Android client for CodeStitcher. Enjoy the zero-latency Pyodide WebAssembly Python IDE, cognitive productivity utilities, and interactive coding challenges directly on your Android device.</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_view_github">View on GitHub</string>
+</resources>

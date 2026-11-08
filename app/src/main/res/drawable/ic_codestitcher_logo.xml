@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Background rounded squircle -->
+    <path
+        android:pathData="M24,8 L72,8 A16,16 0 0 1 88,24 L88,72 A16,16 0 0 1 72,88 L24,88 A16,16 0 0 1 8,72 L8,24 A16,16 0 0 1 24,8 Z"
+        android:fillColor="#0B0F19"/>
+    
+    <!-- Outer Glow / Cyber Border -->
+    <path
+        android:pathData="M24,8 L72,8 A16,16 0 0 1 88,24 L88,72 A16,16 0 0 1 72,88 L24,88 A16,16 0 0 1 8,72 L8,24 A16,16 0 0 1 24,8 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#334155"/>
+
+    <!-- Left Code Bracket Stitch (<) -->
+    <path
+        android:pathData="M38,30 L22,48 L38,66"
+        android:strokeWidth="6"
+        android:strokeColor="#6366F1"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+
+    <!-- Right Code Bracket Stitch (>) -->
+    <path
+        android:pathData="M58,30 L74,48 L58,66"
+        android:strokeWidth="6"
+        android:strokeColor="#06B6D4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+
+    <!-- Dynamic Stitch Thread connecting the code brackets (/) -->
+    <path
+        android:pathData="M55,26 L41,70"
+        android:strokeWidth="5"
+        android:strokeColor="#10B981"
+        android:strokeLineCap="round"/>
+
+    <!-- Center Connection Pulse Node -->
+    <path
+        android:pathData="M48,48 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#FFFFFF"/>
+</vector>
